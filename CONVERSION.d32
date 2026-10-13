@@ -1,0 +1,75 @@
+# STACK
+
+# REGS
+
+# FLAGS
+
+# SEED
+
+# MODE
+MTRIG: DEG
+MFMT: FIX 6
+
+# EQUATION LIST
+EQNPTR: 0
+EQN
+EQNEND
+
+# PROGRAM
+PTR: 0
+PGM
+  LBL A
+  149597870
+  \mul;
+  RTN
+  LBL G
+  149597870.7
+  \div;
+  RTN
+  LBL B
+  1.609344
+  \mul;
+  RTN
+  LBL H
+  1.609344
+  \div;
+  RTN
+  LBL C
+  1.852
+  \mul;
+  RTN
+  LBL I
+  1.852
+  \div;
+  RTN
+  LBL D
+  0.9144
+  \mul;
+  RTN
+  LBL J
+  0.9144
+  \div;
+  RTN
+  LBL E
+  0.3048
+  \mul;
+  RTN
+  LBL K
+  0.3048
+  \div;
+  RTN
+  LBL F
+  -200
+  STO i
+  CLx
+  RCL\blpar;i\brpar;
+  \mul;
+  RTN
+  LBL L
+  -200
+  STO i
+  CLx
+  RCL\blpar;i\brpar;
+  \div;
+  RTN
+PGMEND
